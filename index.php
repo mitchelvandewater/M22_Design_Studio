@@ -11,6 +11,9 @@
 
 	<?php require_once("menu.php"); ?>
 
+	<!-- Home -->
+	<?php require_once("home.php"); ?>
+
 	<script src="js/jquery.js"></script>
 	<script src="js/js.js"></script>
 </body>

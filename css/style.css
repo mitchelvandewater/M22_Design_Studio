@@ -221,3 +221,12 @@ table {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 }
+
+/* ... Home ... */
+#colors {
+	width: 100%;
+	height: 135px;
+
+	background: #333;
+}
+
