@@ -1,40 +1,37 @@
-#header {
-	height: 75px;
-	background-color: #fafafa;
-	box-shadow: 0px 4px 2px -1px gray;
-	position: fixed;
-	width: 100%;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
-	text-decoration: none;
-	color:black;
+/* ...Browser Reset... */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	Box-sizing: Border-box;
+	transition: all 500ms ease-in-out;
 }
-#logo{
-	float:left;
-	font-family: 'Pacifico', cursive;
-	font-size: 38px;
-	margin-left: 200px;
-	padding-top: 5px;
-	height: auto;
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-body{
-	margin:0;
+body {
+	line-height: 1;
 }
-.headerlinks{
-	width: auto;
-	padding-right: 25px;
-	padding-left: 25px;
-	height: 100%;
-	padding-top:27px;
-	text-align: center;
-	float: right;
+ol, ul {
+	list-style: none;
 }
-a{
-	text-decoration: none;
-	color:#464646;
+blockquote, q {
+	quotes: none;
 }
-
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 /* ... Menu ... */
 #menu {
