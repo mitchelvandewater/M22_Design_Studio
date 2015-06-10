@@ -1,10 +1,39 @@
-
 #header {
-	height: 100px;
+	height: 75px;
 	background-color: #fafafa;
-	box-shadow: 0 4px 2px -2px gray;
+	box-shadow: 0px 4px 2px -1px gray;
+	position: fixed;
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color:black;
 }
-=======
+#logo{
+	float:left;
+	font-family: 'Pacifico', cursive;
+	font-size: 38px;
+	margin-left: 200px;
+	padding-top: 5px;
+	height: auto;
+
+}
+body{
+	margin:0;
+}
+.headerlinks{
+	width: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+	height: 100%;
+	padding-top:27px;
+	text-align: center;
+	float: right;
+}
+a{
+	text-decoration: none;
+	color:#464646;
+}
 /* Test bericht
 nog een testbericht */
 
