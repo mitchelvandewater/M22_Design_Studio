@@ -1,29 +1,4 @@
 
-#header {
-	height: 75px;
-	background-color: #fafafa;
-	box-shadow: 0px 4px 2px -1px gray;
-	position: fixed;
-	width: 100%;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
-	text-decoration: none;
-	color:black;
-}
-#logotekst{
-	float:left;
-	font-family: 'Pacifico', cursive;
-	margin-left: 200px;
-	padding-bottom: 10px;
-	height: 70px;
-	height: 75px;
-
-}
-#logo{
-		font-family: 'Pacifico', cursive;
-			font-size: 38px;
-			height: 75px;
-}
 body{
 	margin:0;
 		background-color: #fafafa;
