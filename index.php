@@ -9,12 +9,15 @@
 
 	<link rel="shortcut icon" href="images/icon.ico">
 </head>
-<body>
+<body  onload="LoadGmaps()" onunload="GUnload()">
 
 	<?php require_once("menu.php"); ?>
 
 	<!-- Home -->
 	<?php require_once("home.php"); ?>
+
+	<!-- Contact -->
+	<?php require_once("contact.php"); ?>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/js.js"></script>

@@ -43,6 +43,7 @@ body {
 
 .page {
 	min-height: 100%;
+	position: relative;
 }
 
 /* ... Menu ... */
@@ -322,3 +323,17 @@ body {
 	font-family: 'Pacifico';	
 }
 
+
+/* ... Contact ... */
+#map {
+	position: absolute;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#formulier {
+	padding: 30px 50px;
+	width: 50%;
+	float: right;
+}
