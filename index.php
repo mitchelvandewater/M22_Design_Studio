@@ -16,6 +16,10 @@
 	<!-- Home -->
 	<?php require_once("home.php"); ?>
 
+
+	<!-- portfolio -->
+	<?php require_once("portfolio.php"); ?>
+
 	<script src="js/jquery.js"></script>
 	<script src="js/js.js"></script>
 </body>
