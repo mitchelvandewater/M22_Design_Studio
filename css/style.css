@@ -7,7 +7,6 @@
 	font: inherit;
 	vertical-align: baseline;
 	Box-sizing: Border-box;
-	transition: all 500ms ease-in-out;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -33,6 +32,19 @@ table {
 	border-spacing: 0;
 }
 
+/* ... Main ... */
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #fafafa;
+}
+
+.page {
+	min-height: 100%;
+}
+
 /* ... Menu ... */
 #menu {
 	transition: all 1000ms ease-in-out;
@@ -41,54 +53,14 @@ table {
 	left: -53vw;
 	width: 50vw;
 	height: 50vw;
+
+	z-index: 999;
 }
 
 #menu.active {
 	left: -5vw;
 }
 
-#werknemerswrapper{
-	min-height: 100%;
-	height: 30%;
-	margin-top: 10%;
-}
-.werknemerpersoon{
-	width: 20%;
-	height: 20%;
-	float:left;
-}
-.werknemertext{
-	padding-left: 25px;
-	padding-right: 25px;
-	height: 250px;
-	overflow: hidden;
-}
-
-.werknemertext h3{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 16px;
-	text-decoration: none;
-	color:#464646;
-	text-align: center;
-
-}
-.werknemertext h4 {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 14px;
-	text-decoration: none;
-	color:#464646;
-	text-align: center;
-}
-.werknemertext p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 10px;
-	text-decoration: none;
-	text-align: justify;
-	color:#464646;
-}
-.textcenter{
-	text-align: center;
-}
 #menu_div {
 	position: absolute;
 	width: 150%;
@@ -224,9 +196,113 @@ table {
 
 /* ... Home ... */
 #colors {
+	position: absolute;
 	width: 100%;
 	height: 135px;
-
-	background: #333;
+	margin-top: -67.5px;
+	top: 50%;
 }
 
+.color {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.color.c1 {
+	background: #393f3d;
+}
+
+.color.c2 {
+	background: #4c2c32;
+}
+
+.color.c3 {
+	background: #a45646;
+}
+
+.color.c4 {
+	background: #d39250;
+}
+
+.color.c5 {
+	background: #e1ddd4;
+}
+
+.home_logo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.home_logo img {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.home_logo .text {
+	color: #000000;
+	font-family: 'Pacifico';
+	font-size: 80px;
+
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.white {
+	color: #e1ddd4;
+	margin: 0 60px;
+}
+
+/* ... Over Ons ... */
+#werknemerswrapper{
+	min-height: 100%;
+	height: 30%;
+	margin-top: 10%;
+}
+.werknemerpersoon{
+	width: 20%;
+	height: 20%;
+	float:left;
+}
+.werknemertext{
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.werknemertext h3{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color:#464646;
+	text-align: center;
+
+}
+.werknemertext h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color:#464646;
+	text-align: center;
+}
+.werknemertext p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: justify;
+	color:#464646;
+}
+.textcenter{
+	text-align: center;
+}
