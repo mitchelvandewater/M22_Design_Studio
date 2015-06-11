@@ -264,6 +264,7 @@ body {
 }
 
 /* ... Over Ons ... */
+
 #werknemerswrapper{
 	min-height: 100%;
 	height: 30%;
@@ -298,6 +299,7 @@ body {
 }
 .werknemertext p{
 	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
 	font-size: 10px;
 	text-decoration: none;
 	text-align: justify;
