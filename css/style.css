@@ -268,7 +268,7 @@ body {
 #werknemerswrapper{
 	min-height: 100%;
 	height: 30%;
-	margin-top: 10%;
+	padding-top: 10%;
 }
 .werknemerpersoon{
 	width: 20%;
@@ -309,15 +309,38 @@ body {
 	text-align: center;
 }
 .imageIntroductie{
-	width: 20%
+	width: auto;
+	margin-left: 18%;
+	float:left;
+	height: 45%
 
 }
 .tekstIntroductie{
-	font-family: 'Open Sans', sans-serif;
-	width: 35%
+	width: 35%;
+	float:left;
+		height: 35%
 
 }
 .tekstIntroductie h1{
 	font-family: 'Pacifico';	
+	font-size: 120px;
 }
-
+.tekstIntroductie p{
+	font-family: 'Open Sans', sans-serif;
+}
+#aboutwrapper{
+	min-height: 100%;
+	height: 25%;
+	padding-top: 15%;
+}
+#bottomwrapper{
+	margin-top: -25px;
+	height: 50px;
+	
+	
+}
+.kleurbox{
+	width: 20%;
+	float: left;
+	height:100%;
+}
