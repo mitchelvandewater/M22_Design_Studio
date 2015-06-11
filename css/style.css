@@ -308,9 +308,13 @@ body {
 .textcenter{
 	text-align: center;
 }
-=======
+
+.imageIntroductie{
+	width: 20%
+
 }
 .tekstIntroductie{
+<<<<<<< HEAD
 
 }
 
@@ -432,4 +436,13 @@ html {
 
 .expand__close:hover {
   color: #fff;
+=======
+	font-family: 'Open Sans', sans-serif;
+	width: 35%
+
 }
+.tekstIntroductie h1{
+	font-family: 'Pacifico';	
+>>>>>>> origin/master
+}
+
