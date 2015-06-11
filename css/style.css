@@ -308,8 +308,16 @@ body {
 .textcenter{
 	text-align: center;
 }
-=======
+.imageIntroductie{
+	width: 20%
+
 }
 .tekstIntroductie{
-	
+	font-family: 'Open Sans', sans-serif;
+	width: 35%
+
 }
+.tekstIntroductie h1{
+	font-family: 'Pacifico';	
+}
+
