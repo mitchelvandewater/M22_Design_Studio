@@ -1,4 +1,4 @@
-<div class="page">
+<div id="home" class="page">
 
 	<div id="colors">
 		<div class="color c1"></div>

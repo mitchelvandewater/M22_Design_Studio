@@ -1,4 +1,7 @@
-<div class="page portfolio">
+<div id="portfolio" class="page portfolio">
+
+  <h1 class="normal">Portfolio</h1>
+
   <section class="image-grid">
 
     <div class="image__cell is-collapsed">

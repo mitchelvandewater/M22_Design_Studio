@@ -103,6 +103,7 @@ body {
 	padding: 15px;
 	text-align: right;
 	text-transform: lowercase;
+	cursor: pointer;
 
 	-moz-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
@@ -272,10 +273,8 @@ body {
 
 /* ... Over Ons ... */
 
-#werknemerswrapper{
-	min-height: 100%;
-	height: 30%;
-	padding-top: 10%;
+#werknemers{
+	padding-top: 6%;
 }
 .werknemerpersoon{
 	width: 20%;
@@ -316,13 +315,30 @@ body {
 	text-align: center;
 }
 
+#about {
+	padding-top: 15%;
+}
+
+#about::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
 .imageIntroductie{
 	width: auto;
 	margin-left: 18%;
 	float:left;
-	height: 45%
-
+	height: 50%;
+	text-align: center;
 }
+
+.imageIntroductie img{
+	width: 80%;
+	margin-left: 18%;
+	height: auto;
+}
+
 .tekstIntroductie{
 	width: 35%;
 	float:left;
@@ -439,7 +455,6 @@ body {
 .expand__close:hover {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	width: 35%
 }
 
 .tekstIntroductie h1{
@@ -449,13 +464,8 @@ body {
 .tekstIntroductie p{
 	font-family: 'Open Sans', sans-serif;
 }
-#aboutwrapper{
-	min-height: 100%;
-	height: 25%;
-	padding-top: 15%;
-}
 
-#bottomwrapper{
+.bottomwrapper{
 	position: relative;
 	margin-top: -25px;
 	height: 50px;
@@ -464,14 +474,27 @@ body {
 	z-index: 50;
 }
 
-#bottomwrapper.last{
+.bottomwrapper.last{
 	height: 25px;
+}
+
+.bottomwrapper.first{
+	height: 50px;
+	margin-top: 0;
 }
 
 .kleurbox{
 	width: 20%;
 	float: left;
 	height:100%;
+}
+
+h1.normal {
+	font-family: 'Pacifico';	
+	font-size: 120px;
+	margin-bottom: 35px;
+	padding-top: 25px;
+	text-align: center;
 }
 
 

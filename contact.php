@@ -1,4 +1,4 @@
-<div class="page">
+<div id="contact" class="page">
 	
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript">
@@ -42,12 +42,12 @@
 	<div id="formulier">
 		<h1 class="contact">Contact</h1>
 
-		<form method="POST" action="">
-			<input type="text" name="name" placeholder="naam" required>
-			<input type="email" name="email" placeholder="email" required>
-			<textarea name="message" rows="5" placeholder="bericht" required></textarea>
+		<form method="POST" action="index#contact">
+			<input id="naam" onkeyup="checkForm()" type="text" name="naam" placeholder="naam" required>
+			<input id="email" onkeyup="checkForm()" type="email" name="email" placeholder="email" required>
+			<textarea id="message" onkeyup="checkForm()" name="message" rows="5" placeholder="bericht" required></textarea>
 
-			<input class="submit" type="submit" name="verzend" value="Verzend">
+			<input id="sendBtn" class="submit" type="submit" name="verzend" value="Verzend">
 		</form>
 
 		<p class="contact">
@@ -59,7 +59,7 @@
 	</div>
 </div>
 
-<div id="bottomwrapper" class="last">
+<div class="bottomwrapper last">
 	<div style="background-color:#393F3D;"class="kleurbox"></div>
 	<div style="background-color:#4C2C32;"class="kleurbox"></div>
 	<div style="background-color:#A45646;"class="kleurbox"></div>
