@@ -479,10 +479,10 @@ body {
 	letter-spacing: 0.4pt;
 	padding: 20px;
 	color: rgba(0, 0, 0, 0.8);
-
 }
 
 .portfolio-titel {
+	font-size: 60px;
 	font-family: "Pacifico";
 }
 
@@ -492,8 +492,8 @@ body {
 	float: left;
 	background-color: blue;
 }
-=======
-	font-family: 'Pacifico';	
+.tekstIntroductie h1{
+	font-family: 'Pacifico';
 	font-size: 120px;
 }
 .tekstIntroductie p{
@@ -525,7 +525,7 @@ body {
 }
 
 h1.normal {
-	font-family: 'Pacifico';	
+	font-family: 'Pacifico';
 	font-size: 120px;
 	margin-bottom: 35px;
 	padding-top: 25px;
@@ -555,7 +555,7 @@ h1.normal {
 }
 
 h1.contact {
-	font-family: 'Pacifico';	
+	font-family: 'Pacifico';
 	font-size: 120px;
 	margin-bottom: 35px;
 }
