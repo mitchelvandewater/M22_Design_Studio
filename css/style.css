@@ -7,6 +7,7 @@
 	font: inherit;
 	vertical-align: baseline;
 	Box-sizing: Border-box;
+	-webkit-font-smoothing: antialiased;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -342,7 +343,17 @@ body {
 .tekstIntroductie{
 	width: 35%;
 	float:left;
-	height: 35%
+}
+
+.tekstIntroductie h1{
+	font-family: 'Pacifico';	
+	font-size: 120px;
+}
+.tekstIntroductie p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13pt;
+	line-height: 20.8pt;
+	letter-spacing: 0.4pt;
 }
 
 /* portfolio style */
@@ -454,14 +465,6 @@ body {
 
 .expand__close:hover {
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.tekstIntroductie h1{
-	font-family: 'Pacifico';	
-	font-size: 120px;
-}
-.tekstIntroductie p{
 	font-family: 'Open Sans', sans-serif;
 }
 
