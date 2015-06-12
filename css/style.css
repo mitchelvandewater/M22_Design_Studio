@@ -317,7 +317,7 @@ body {
 }
 
 #about {
-	padding-top: 15%;
+	padding-top: 10%;
 }
 
 #about::after {
@@ -353,6 +353,7 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 10px 5px 0;
+	margin-bottom: 35px;
 }
 
 .image__cell {
@@ -398,8 +399,8 @@ body {
 
 .image--expand {
   position: relative;
-  left: -5px;
-  /* padding: 0 5px; */
+  /* left: -5px; */
+  margin-right: 5px;
   box-sizing: content-box;
   overflow: hidden;
   background: #e1ddd4;
@@ -477,20 +478,20 @@ body {
 	font-size: 13pt;
 	line-height: 20.8pt;
 	letter-spacing: 0.4pt;
-	padding: 20px;
+	padding: 35px;
 	color: rgba(0, 0, 0, 0.8);
 }
 
 .portfolio-titel {
 	font-size: 60px;
 	font-family: "Pacifico";
+	padding: 20px 0 0 35px;
 }
 
 .image-container {
 	width: 50%;
 	height: 100%;
 	float: left;
-	background-color: blue;
 }
 .tekstIntroductie h1{
 	font-family: 'Pacifico';
