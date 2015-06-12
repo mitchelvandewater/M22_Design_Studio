@@ -317,7 +317,8 @@ body {
 }
 
 #about {
-	padding-top: 10%;
+	padding: 7.5% 0;
+
 }
 
 #about::after {
@@ -346,7 +347,7 @@ body {
 }
 
 .tekstIntroductie h1{
-	font-family: 'Pacifico';	
+	font-family: 'Pacifico';
 	font-size: 120px;
 }
 .tekstIntroductie p{
