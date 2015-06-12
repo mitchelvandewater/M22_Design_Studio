@@ -44,6 +44,13 @@ body {
 
 .page {
 	min-height: 100%;
+	position: relative;
+}
+
+.page::after {
+	content: '';
+	clear: both;
+	display: table;
 }
 
 /* ... Menu ... */
@@ -97,6 +104,7 @@ body {
 	padding: 15px;
 	text-align: right;
 	text-transform: lowercase;
+	cursor: pointer;
 
 	-moz-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
@@ -266,10 +274,8 @@ body {
 
 /* ... Over Ons ... */
 
-#werknemerswrapper{
-	min-height: 100%;
-	height: 30%;
-	margin-top: 10%;
+#werknemers{
+	padding-top: 6%;
 }
 .werknemerpersoon{
 	width: 20%;
@@ -310,31 +316,43 @@ body {
 	text-align: center;
 }
 
-.imageIntroductie{
-	width: 20%
-
+#about {
+	padding-top: 15%;
 }
-.tekstIntroductie{
-<<<<<<< HEAD
 
+#about::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.imageIntroductie{
+	width: auto;
+	margin-left: 18%;
+	float:left;
+	height: 50%;
+	text-align: center;
+}
+
+.imageIntroductie img{
+	width: 80%;
+	margin-left: 18%;
+	height: auto;
+}
+
+.tekstIntroductie{
+	width: 35%;
+	float:left;
+	height: 35%
 }
 
 /* portfolio style */
-
-html {
-	box-sizing: border-box;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
 .image-grid {
-  width: 100%;
-  max-width: 1310px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 10px 5px 0;
+	width: 100%;
+	max-width: 1310px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 5px 0;
 }
 
 .image__cell {
@@ -436,13 +454,12 @@ html {
 }
 
 .expand__close:hover {
-  color: #fff;
-=======
+	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	width: 35%
-
 }
+
 .tekstIntroductie h1{
+<<<<<<< HEAD
 	font-family: 'Pacifico';
 >>>>>>> origin/master
 }
@@ -475,3 +492,98 @@ html {
 	float: left;
 	background-color: blue;
 }
+=======
+	font-family: 'Pacifico';	
+	font-size: 120px;
+}
+.tekstIntroductie p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bottomwrapper{
+	position: relative;
+	margin-top: -25px;
+	height: 50px;
+	width: 100%;
+	clear: both;
+	z-index: 50;
+}
+
+.bottomwrapper.last{
+	height: 25px;
+}
+
+.bottomwrapper.first{
+	height: 50px;
+	margin-top: 0;
+}
+
+.kleurbox{
+	width: 20%;
+	float: left;
+	height:100%;
+}
+
+h1.normal {
+	font-family: 'Pacifico';	
+	font-size: 120px;
+	margin-bottom: 35px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+
+/* ... Contact ... */
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	float: left;
+	width: 50%;
+}
+
+#formulier {
+	padding: 30px 50px;
+	width: 50%;
+	float: right;
+}
+
+#map::after, #formulier::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+h1.contact {
+	font-family: 'Pacifico';	
+	font-size: 120px;
+	margin-bottom: 35px;
+}
+
+p.contact {
+	margin-top: 25px;
+	padding: 25px;
+	width: 80%;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input,textarea {
+	margin: 8px;
+	padding: 5px 10px;
+	width: 80%;
+	background: #e1ddd4;
+	color: #393f3d;
+	font-size: 35px;
+	font-family: 'Quicksand';
+}
+
+input.submit {
+	background: #a45646;
+	color: #fafafa;
+}
+
+textarea {
+	resize: none;
+}
+>>>>>>> origin/master

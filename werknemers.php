@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Odd Duck</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div id="werknemerswrapper">
+<div id="werknemers" class="page">
+	
+	<h1 class="normal">Werknemers</h1>
+
 	<div class="werknemerpersoon">
 		<div class="werknemerimage"><img src="images/werknemers_1_mitchel.png" width="100%"alt=""></div>
 		<div class="werknemertext"><p><h3> Mitchel van de Water</h3></p>
@@ -51,5 +43,3 @@
 		</div>
 	</div>
 </div>
-</body>
-</html>

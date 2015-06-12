@@ -4,10 +4,11 @@
 	
 	<div id="menu_div">
 		<ul>
-			<li>Home</li>
-			<li>Over ons</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
+			<li onclick="scrollTo('home')">Home</li>
+			<li onclick="scrollTo('about')">Odd Duck</li>
+			<li onclick="scrollTo('werknemers')">Werknemers</li>
+			<li onclick="scrollTo('portfolio')">Portfolio</li>
+			<li onclick="scrollTo('contact')">Contact</li>
 		</ul>
 	</div>
 
