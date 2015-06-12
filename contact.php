@@ -40,7 +40,29 @@
 	<div id="map"></div>
 
 	<div id="formulier">
-		<h1>Hi</h1>
+		<h1 class="contact">Contact</h1>
+
+		<form method="POST" action="">
+			<input type="text" name="name" placeholder="naam" required>
+			<input type="email" name="email" placeholder="email" required>
+			<textarea name="message" rows="5" placeholder="bericht" required></textarea>
+
+			<input class="submit" type="submit" name="verzend" value="Verzend">
+		</form>
+
+		<p class="contact">
+			Postbus 10000 <br>
+			9501AA Eindhoven <br>
+			Telefoon: 020- 1234567 <br>
+			E-mail: info@OddDuck.nl
+		</p>
 	</div>
-	
+</div>
+
+<div id="bottomwrapper" class="last">
+	<div style="background-color:#393F3D;"class="kleurbox"></div>
+	<div style="background-color:#4C2C32;"class="kleurbox"></div>
+	<div style="background-color:#A45646;"class="kleurbox"></div>
+	<div style="background-color:#D39250;"class="kleurbox"></div>
+	<div style="background-color:#E1DDD4;"class="kleurbox"></div>
 </div>

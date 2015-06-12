@@ -15,6 +15,9 @@
 
 	<!-- Home -->
 	<?php require_once("home.php"); ?>
+	
+	<!-- portfolio -->
+	<?php require_once("portfolio.php"); ?>
 
 	<!-- Contact -->
 	<?php require_once("contact.php"); ?>

@@ -9,7 +9,7 @@
 	Box-sizing: Border-box;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -44,6 +44,12 @@ body {
 .page {
 	min-height: 100%;
 	position: relative;
+}
+
+.page::after {
+	content: '';
+	clear: both;
+	display: table;
 }
 
 /* ... Menu ... */
@@ -269,7 +275,7 @@ body {
 #werknemerswrapper{
 	min-height: 100%;
 	height: 30%;
-	margin-top: 10%;
+	padding-top: 10%;
 }
 .werknemerpersoon{
 	width: 20%;
@@ -311,29 +317,214 @@ body {
 }
 
 .imageIntroductie{
-	width: 20%
+	width: auto;
+	margin-left: 18%;
+	float:left;
+	height: 45%
 
 }
 .tekstIntroductie{
+	width: 35%;
+	float:left;
+	height: 35%
+}
+
+/* portfolio style */
+.image-grid {
+	width: 100%;
+	max-width: 1310px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 5px 0;
+}
+
+.image__cell {
+  float: left;
+  position: relative;
+  width: 20%;
+}
+
+.image--basic {
+  padding: 0 5px;
+}
+
+.basic__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image__cell.is-collapsed .arrow--up {
+  display: block;
+  height: 10px;
+  width: 100%;
+}
+
+.image--large {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.image__cell.is-collapsed .image--basic {
+  cursor: pointer;
+}
+
+.image__cell.is-expanded .image--expand {
+  max-height: 500px;
+  margin-bottom: 10px;
+}
+
+.image--expand {
+  position: relative;
+  left: -5px;
+  padding: 0 5px;
+  box-sizing: content-box;
+  overflow: hidden;
+  background: #e1ddd4;
+  max-height: 0;
+  transition: max-height .3s ease-in-out,
+              margin-bottom .1s .2s;
+  width: 500%;
+}
+
+.image__cell:nth-of-type(5n+2) .image--expand {
+  margin-left: -100%;
+}
+
+.image__cell:nth-of-type(5n+3) .image--expand {
+  margin-left: -200%;
+}
+
+.image__cell:nth-of-type(5n+4) .image--expand {
+  margin-left: -300%;
+}
+
+.image__cell:nth-of-type(5n+5) .image--expand {
+  margin-left: -400%;
+}
+
+.image__cell:nth-of-type(5n+6) {
+  clear: left;
+}
+
+.image__cell.is-expanded .arrow--up {
+  display: block;
+  border-bottom: 8px solid #e1ddd4;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  height: 0;
+  width: 0;
+  margin: 2px auto 0;
+}
+
+.expand__close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #454545;
+  font-size: 50px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.expand__close:before {
+  content: '×';
+}
+
+.expand__close:hover {
+	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	width: 35%
-
 }
+
 .tekstIntroductie h1{
 	font-family: 'Pacifico';	
+	font-size: 120px;
+}
+.tekstIntroductie p{
+	font-family: 'Open Sans', sans-serif;
+}
+#aboutwrapper{
+	min-height: 100%;
+	height: 25%;
+	padding-top: 15%;
+}
+
+#bottomwrapper{
+	position: relative;
+	margin-top: -25px;
+	height: 50px;
+	width: 100%;
+	clear: both;
+	z-index: 50;
+}
+
+#bottomwrapper.last{
+	height: 25px;
+}
+
+.kleurbox{
+	width: 20%;
+	float: left;
+	height:100%;
 }
 
 
 /* ... Contact ... */
 #map {
 	position: absolute;
+	top: 0;
+	bottom: 0;
 	float: left;
 	width: 50%;
-	height: 100%;
 }
 
 #formulier {
 	padding: 30px 50px;
 	width: 50%;
 	float: right;
+}
+
+#map::after, #formulier::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+h1.contact {
+	font-family: 'Pacifico';	
+	font-size: 120px;
+	margin-bottom: 35px;
+}
+
+p.contact {
+	margin-top: 25px;
+	padding: 25px;
+	width: 80%;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input,textarea {
+	margin: 8px;
+	padding: 5px 10px;
+	width: 80%;
+	background: #e1ddd4;
+	color: #393f3d;
+	font-size: 35px;
+	font-family: 'Quicksand';
+}
+
+input.submit {
+	background: #a45646;
+	color: #fafafa;
+}
+
+textarea {
+	resize: none;
 }
