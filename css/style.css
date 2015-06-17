@@ -91,7 +91,7 @@ body {
 #menu_div ul {
 	position: absolute;
 	list-style: none;
-	top: 12vw;
+	top: 220px;
 	right: 0;
 }
 
@@ -250,12 +250,14 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	max-height: 100%;
+	width: auto;
 	margin-right: -50%;
-	transform: translate(-50px, -50px);
-	-webkit-transform: translate(-50px, -50px);
-	-moz-transform: translate(-50px, -50px);
-	-o-transform: translate(-50px, -50px);
-	-ms-transform: translate(-50px, -50px);
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 
 .home_logo .text {
@@ -598,4 +600,13 @@ input.submit {
 
 textarea {
 	resize: none;
+}
+
+
+@media screen and (max-width: 1300px) {
+	#menu {
+		left: -90vw;
+		width: 90vw;
+		height: 90vw;
+	}
 }
