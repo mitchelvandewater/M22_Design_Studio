@@ -14,4 +14,23 @@
 		<div class="text">The <span class="white">Odd</span> Duck</div>
 	</div>
 	
+	<script type="text/javascript">     
+        $(function() {
+            $(window).resize(function() {
+                var win = $("#home");
+                var area = $('.home_logo');
+                $('#signuparea').css({
+                    position: 'absolute',                       
+                    left: (win.width() - area.outerWidth()) / 2,
+                    top: (win.height() - area.outerHeight()) / 2
+                });
+
+                //$('body').append('<div>l=' + ((win.width() - area.outerWidth()) / 2) + '</div>');                     
+                //$('body').append('<div>w=' + area.outerWidth() + '</div>');
+                //$('body').append('<div>h=' + area.outerHeight() + '</div>');
+            });
+
+            $(window).resize();
+        });
+    </script>
 </div>

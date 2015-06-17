@@ -23,7 +23,7 @@
 		<div class="werknemerimage"><img src="images/werknemers_3_aylin.png" width="100%"alt=""></div>
 		<div class="werknemertext">			<p><h3> Aylin Nederlof</h3></p>
 			<p><h4>Designer / Creative Writer</h4></p>
-			<p>Ayling specialiseert zich in Design, en werkt hier de bijbehorende producten bij uit. Ze leeft samen met alle werknemers het creatieve proces door en zorgt voor een  goed resultaat.</p>
+			<p>Aylin specialiseert zich in Design, en werkt hier de bijbehorende producten bij uit. Ze leeft samen met alle werknemers het creatieve proces door en zorgt voor een  goed resultaat.</p>
 		</div>
 	</div>
 	<div class="werknemerpersoon">
