@@ -603,7 +603,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
 	#menu {
 		left: -90vw;
 		width: 90vw;
