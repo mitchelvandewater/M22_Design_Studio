@@ -251,7 +251,11 @@ body {
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50px, -50px);
+	-webkit-transform: translate(-50px, -50px);
+	-moz-transform: translate(-50px, -50px);
+	-o-transform: translate(-50px, -50px);
+	-ms-transform: translate(-50px, -50px);
 }
 
 .home_logo .text {
